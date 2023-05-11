@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Netflix-Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Netflix-Clone is a front-end web application that replicates the popular video streaming service Netflix using ReactJS and TMDb API. It allows users to browse and discover popular titles, Netflix originals, as well as films and series across different genres, providing a familiar streaming experience for users who want to enjoy the latest movies and TV shows.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Browse popular movies and TV shows
+- View Netflix originals and trending titles
+- Search movies and TV shows by title and genre
+- View movie and TV show details, including synopsis, release date, and rating
+- Responsive design for desktop and mobile devices
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To install and run the project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine:
 
-### `npm test`
+```bash
+git clone https://github.com/[YOUR-USERNAME]/Netflix-Clone.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `npm run build`
+```bash
+cd Netflix-Clone
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the project dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Start the development server:
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the app.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome! If you find any bugs or issues with the project, please report them by opening an issue. If you'd like to contribute to the project, please follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Fork the repository to your own GitHub account.
+2. Clone the repository to your local machine.
+3. Create a new branch for your feature/fix: `git checkout -b my-feature`.
+4. Commit your changes: `git commit -m "Add new feature"`.
+5. Push your changes to your fork: `git push origin my-feature`.
+6. Create a pull request on the original repository.
 
-## Learn More
+## Credits
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project was inspired by Netflix and was built using the following technologies and resources:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ReactJS
+- TMDb API
+- Axios
+- React Icons
+- React Router
+- Material-UI
+- HTML/CSS
+- JavaScript
+-I would like to give credit to the Youtuber named Clever Programmer for creating such a a helpful video. Thank you for creating such a helpful tutorial
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
